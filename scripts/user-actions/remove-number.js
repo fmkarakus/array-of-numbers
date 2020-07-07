@@ -21,6 +21,7 @@ const removeNumber = (arrOfNumbers, toRemove) => {
   }
 
   // write the logic!
+  return arrOfNumbers.filter(function(entry){ return entry !== toRemove; })
 };
 
 
@@ -73,23 +74,24 @@ describe('removeNumber: removes all instances of a number in an array', () => {
 
 
 const removeNumberHandler = () => {
+  debugger;
   console.log('\n--- calling: remove number handler');
   console.log('numbers (before):', typeof numbers, '\n', numbers);
 
-  const userInput = _;
+  const userInput = prompt('find all entries less than');
   console.log('userInput:', typeof userInput, '\n', userInput);
-  if (_) {
+  if (userInput === null || userInput === '') {
     return;
   }
 
-  const userNumber = _;
+  const userNumber = Number(userInput);
   console.log('userNumber:', typeof userNumber, '\n', userNumber);
-  if (_) {
+  if (Number(isNaN(userNumber))) {
     alert(`${userInput} is not a valid number`);
     return;
   }
 
-  numbers = _;
+  numbers = removeNumber(numbers, userNumber);
   console.log('numbers (after):', typeof numbers, '\n', numbers);
 
   displayArrayHandler(numbers, `successfully removed ${userNumber}`);
