@@ -20,6 +20,13 @@ const findLessThan = (arrOfNumbers, highValue) => {
   }
 
   // write the logic!
+  let arrOfLoverNumbers = [];
+  for (let number of arrOfNumbers){
+    if(number < highValue){
+      arrOfLoverNumbers.push(number)
+    }
+  }
+  return arrOfLoverNumbers;
 };
 
 
@@ -71,23 +78,24 @@ describe('findLessThan: keeps all numbers that are less than a given value', () 
 
 
 const findLessThanHandler = () => {
+  debugger;
   console.log('\n--- calling: find less than handler');
   console.log('numbers:', typeof numbers, '\n', numbers);
 
-  const userInput = _;
+  const userInput = prompt('Please enter the number in order to return all numbers that are smaller than your current input');
   console.log('userInput:', typeof userInput, '\n', userInput);
-  if (_) {
+  if (userInput === null || userInput === '') {
     return;
   }
 
-  const userNumber = _;
+  const userNumber = Number(userInput);;
   console.log('userNumber:', typeof userNumber, '\n', userNumber);
-  if (_) {
+  if (Number.isNaN(userNumber)) {
     alert(`${userInput} is not a valid number`);
     return;
   }
 
-  const filteredNumbers = _;
+  const filteredNumbers = findLessThan(numbers, userNumber);
   console.log('filteredNumbers:', typeof filteredNumbers, '\n', filteredNumbers);
 
   displayArrayHandler(filteredNumbers, `numbers less than ${userNumber}`);
