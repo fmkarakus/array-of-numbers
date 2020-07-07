@@ -51,7 +51,7 @@ __A User can see my initial repository and live demo__
 - [x] developed on a branch called `add number`
 
 ### JS
-- write js formula for add number botton
+- write js formula for add number button
 
 ## 2. HTML index
 
@@ -74,7 +74,7 @@ __A User can see my initial repository and live demo__
  
 ### JS
 
-- [x] write js formula for remove number botton. 
+- [x] write js formula for remove number button. 
 
 ## 3. all number buttons
 
@@ -87,8 +87,8 @@ __A User can see my initial repository and live demo__
     
 ### JS
 
-- [x] write formula in Js find all number greater than x botton.
-- [x] write formula in Js find all number less than x botton.
+- [x] write formula in Js find all number greater than x button.
+- [x] write formula in Js find all number less than x button.
 
 ## 4. display botton
 
@@ -99,7 +99,7 @@ __A User can see my initial repository and live demo__
 
 ### JS
 
-- [x] write formula in js display all number botton.
+- [x] write formula in js display all number button.
   
 
 ## Finishing Touches
@@ -110,7 +110,7 @@ __A User can see my initial repository and live demo__
 
 ### JS
 
-- [x] write formula in js find the average of all numbers botton.
+- [x] write formula in js find the average of all numbers button.
 
 -  [makeareadme.com](https://www.makeareadme.com/)
 
