@@ -48,17 +48,18 @@ __A User can see my initial repository and live demo__
   - Create project board
   -  Assign issues 
 
-- [x] developed on a branch called `add number`
+- [x] developed on a branch called `add-number`
 
 ### JS
 - write js formula for add number button
 
-## 2. HTML index
+## 2. HTML- CSS
 
 *assigned to Gelila*
 *reviewed by Iryna*
   
-- [x] developed on a branch called `remove number`
+- [x] developed on a branch called `HTML-CSS`
+- [x] developed on a branch called `remove-number`
   
 
 ### HTML
@@ -81,7 +82,8 @@ __A User can see my initial repository and live demo__
 *assigned to Iryna*
 *reviewed by Fatih*
 
-- [x] developed on a branch called `all number`
+- [x] developed on a branch called `find-less-than`
+- [x] developed on a branch called `find-greater-than`
  
 - [x]  Write final, complete README file for project.
     
@@ -94,7 +96,7 @@ __A User can see my initial repository and live demo__
 
 *assigned to Hazem*
 *reviewed by Gelila*
-- [x] developed on a branch called `display number`
+- [x] developed on a branch called `display-array`
 - [x] write development stratgey for the project.
 
 ### JS
@@ -106,7 +108,7 @@ __A User can see my initial repository and live demo__
 *assigned to Ismail*
 *reviewed by Hazem*
 
-- [x] developed on a branch called `average number`
+- [x] developed on a branch called `find-average`
 
 ### JS
 
