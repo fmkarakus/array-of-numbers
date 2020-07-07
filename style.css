@@ -1,3 +1,90 @@
-.poo {
-  color:brown;
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Yanone+Kaffeesatz:wght@500&display=swap');
+body{
+  background:url(https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+ background-size: cover;
+ background-repeat: no-repeat;
+ 
+  
+}
+.icon-btn {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #cdcdcd;
+  background: white;
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+  transition: width 0.3s ease-in-out;
+}
+.add-btn:hover {
+  width: 400px;
+}
+.add-btn::before,
+.add-btn::after {
+  transition: width 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 100px;
+  top: calc(50% - 2px);
+  
+}
+.add-btn::after {
+  right: 14px;
+  overflow: hidden;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.add-btn::before {
+  left: 14px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}*/
+.icon-btn:focus {
+  outline: solid;
+}
+.btn-txt {
+  opacity: 0;
+  transition: opacity 0.2s;
+  font-family: 'Fondamento', cursive;
+  font-size: 19px;
+}
+.add-btn:hover::before,
+.add-btn:hover::after {
+  width: 4px;
+  border-radius: 2px;
+}
+.add-btn:hover .btn-txt {
+  opacity: 1;
+}
+.add-icon::after,
+.add-icon::before {
+  transition: all 0.2s ease-in-out;
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 10px;
+   top: calc(50% - 10px);
+  background: rgb(81, 128, 199);
+  overflow: hidden;
+}
+.add-icon::before {
+  left: 22px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.add-icon::after {
+  right: 22px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;}
+
+.add-btn:hover .add-icon::before {
+  left: 15px;
+  height: 4px;
+  top: calc(50% - 2px);
+}
+.add-btn:hover .add-icon::after {
+  right: 15px;
+  height: 4px;
+  top: calc(50% - 2px);
 }
