@@ -57,7 +57,7 @@ describe('reduceForAlert: reduces an array of numbers into an alert-friendly str
 });
 
 
-// this handler works, no ned to change it.  Just to study it!
+// This handler works, no need to change it.  Just to study it!
 const displayArrayHandler = (arrayToDisplay = numbers, message = 'all saved numbers') => {
   console.log('\n--- calling: display array handler');
   console.log('arrayToDisplay:', typeof arrayToDisplay, '\n', arrayToDisplay);
