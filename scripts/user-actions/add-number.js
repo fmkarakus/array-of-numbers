@@ -4,7 +4,7 @@ debugger;
 const addNumberHandler = () => {
   console.log("\n--- calling: add number handler");
 
-  const userInput = prompt("enter a number to add:");
+  const userInput = prompt("Enter a number to add:");
   console.log("userInput:", typeof userInput, "\n", userInput);
   if (userInput === null || userInput === "") {
     return;
