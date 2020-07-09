@@ -92,7 +92,7 @@ __A User can see my initial repository and live demo__
 - [x] write formula in Js find all number greater than x button.
 - [x] write formula in Js find all number less than x button.
 
-## 4. display botton
+## 4. display button
 
 *assigned to Hazem*
 *reviewed by Gelila*
