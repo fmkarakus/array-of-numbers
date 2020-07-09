@@ -17,7 +17,16 @@ const reduceForAlert = (arrOfNumbers) => {
   }
 
   // write the logic!
+  let stringToDisplay = '';
+      for (let string of arrOfNumbers) {
+        stringToDisplay += string + '\n';
+      }
+      return stringToDisplay;
+      console.log('stringToDisplay:', typeof stringToDisplay, '\n', stringToDisplay);
+
+      
 };
+
 
 
 
